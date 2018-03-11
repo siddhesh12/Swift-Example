@@ -57,14 +57,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="siddhesh" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkG-qu-U7R">
-                                                    <rect key="frame" x="15" y="11.5" width="70" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkG-qu-U7R">
+                                                    <rect key="frame" x="15" y="22" width="0.0" height="0.0"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="$0.140" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TJb-aI-t80">
-                                                    <rect key="frame" x="290" y="11" width="52" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TJb-aI-t80">
+                                                    <rect key="frame" x="342" y="21.5" width="0.0" height="0.0"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -81,6 +81,7 @@
                                         <connections>
                                             <outlet property="priceLabel" destination="TJb-aI-t80" id="CnR-zy-g4w"/>
                                             <outlet property="titleLabel" destination="PkG-qu-U7R" id="Zai-Uj-tnL"/>
+                                            <segue destination="reK-DT-tiV" kind="show" identifier="productDetailSegueID" id="kAN-vI-T5x"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -107,6 +108,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="juj-w9-5jf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1530.4000000000001" y="912.5937031484259"/>
+        </scene>
+        <!--Product Details-->
+        <scene sceneID="9YN-B0-gc3">
+            <objects>
+                <viewController id="reK-DT-tiV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hdb-MB-yne">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place an order and pickup in store" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGv-Nw-DA3">
+                                <rect key="frame" x="30" y="303" width="315" height="76.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RGv-Nw-DA3" firstAttribute="leading" secondItem="FP8-e2-mWL" secondAttribute="leading" constant="30" id="8iH-lE-75L"/>
+                            <constraint firstItem="FP8-e2-mWL" firstAttribute="trailing" secondItem="RGv-Nw-DA3" secondAttribute="trailing" constant="30" id="L1g-r7-Z5y"/>
+                            <constraint firstItem="RGv-Nw-DA3" firstAttribute="centerY" secondItem="FP8-e2-mWL" secondAttribute="centerY" id="q1g-XT-RTs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FP8-e2-mWL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Product Details" id="PeE-k5-zks"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="la7-Xk-Qb2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1530.4000000000001" y="1838.2308845577213"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="UGB-Oj-LIW">

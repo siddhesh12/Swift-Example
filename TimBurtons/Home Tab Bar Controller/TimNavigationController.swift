@@ -13,6 +13,11 @@ class TimNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.titleColor]
+        navigationBar.tintColor = UIColor.titleColor
+        if UIDevice().userInterfaceIdiom == .phone && UIScreen.main.nativeBounds.height == 2436 {
+            navigationBar.largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.titleColor]
+            navigationBar.prefersLargeTitles = true
+        }
     }
 
     override func didReceiveMemoryWarning() {

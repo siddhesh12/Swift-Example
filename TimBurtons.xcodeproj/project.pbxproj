@@ -7,6 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A268650205362AC00549317 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A26864F205362AC00549317 /* Product.swift */; };
+		5A2686522053673E00549317 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2686512053673E00549317 /* APIManager.swift */; };
+		5A2686762055BD5F00549317 /* TimBurtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2686752055BD5F00549317 /* TimBurtonsTests.swift */; };
+		5A2686842055BDB800549317 /* TimBurtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2686832055BDB800549317 /* TimBurtonsUITests.swift */; };
+		5A26869C2055C65000549317 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B9C205328AF003A88E8 /* MoreViewController.swift */; };
+		5A26869D2055C65000549317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B76205317CB003A88E8 /* ViewController.swift */; };
+		5A26869E2055C65000549317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B74205317CB003A88E8 /* AppDelegate.swift */; };
+		5A26869F2055C65000549317 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B9A205328A8003A88E8 /* ChatViewController.swift */; };
+		5A2686A02055C65000549317 /* TimNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B8A20532416003A88E8 /* TimNavigationController.swift */; };
+		5A2686A12055C65000549317 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596BA220535709003A88E8 /* ProductTableViewCell.swift */; };
+		5A2686A22055C65000549317 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2686512053673E00549317 /* APIManager.swift */; };
+		5A2686A32055C65000549317 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B9E20532BD4003A88E8 /* RewardsViewController.swift */; };
+		5A2686A42055C65000549317 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B8820531C1E003A88E8 /* MainViewController.swift */; };
+		5A2686A52055C65000549317 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B8D2053256C003A88E8 /* UIColor+Extension.swift */; };
+		5A2686A62055C65000549317 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B982053289D003A88E8 /* OffersViewController.swift */; };
+		5A2686A72055C65000549317 /* GiftCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596BA020532C47003A88E8 /* GiftCardViewController.swift */; };
+		5A2686A82055C65000549317 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B90205326EA003A88E8 /* ProductViewController.swift */; };
+		5A2686A92055C65000549317 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A26864F205362AC00549317 /* Product.swift */; };
+		5A2686AC2055C65000549317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A596B7D205317CB003A88E8 /* LaunchScreen.storyboard */; };
+		5A2686AD2055C65000549317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A596B7B205317CB003A88E8 /* Assets.xcassets */; };
+		5A2686AE2055C65000549317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A596B78205317CB003A88E8 /* Main.storyboard */; };
+		5A2686B62055C6D100549317 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B9C205328AF003A88E8 /* MoreViewController.swift */; };
+		5A2686B72055C6D100549317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B76205317CB003A88E8 /* ViewController.swift */; };
+		5A2686B82055C6D100549317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B74205317CB003A88E8 /* AppDelegate.swift */; };
+		5A2686B92055C6D100549317 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B9A205328A8003A88E8 /* ChatViewController.swift */; };
+		5A2686BA2055C6D100549317 /* TimNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B8A20532416003A88E8 /* TimNavigationController.swift */; };
+		5A2686BB2055C6D100549317 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596BA220535709003A88E8 /* ProductTableViewCell.swift */; };
+		5A2686BC2055C6D100549317 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2686512053673E00549317 /* APIManager.swift */; };
+		5A2686BD2055C6D100549317 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B9E20532BD4003A88E8 /* RewardsViewController.swift */; };
+		5A2686BE2055C6D100549317 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B8820531C1E003A88E8 /* MainViewController.swift */; };
+		5A2686BF2055C6D100549317 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B8D2053256C003A88E8 /* UIColor+Extension.swift */; };
+		5A2686C02055C6D100549317 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B982053289D003A88E8 /* OffersViewController.swift */; };
+		5A2686C12055C6D100549317 /* GiftCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596BA020532C47003A88E8 /* GiftCardViewController.swift */; };
+		5A2686C22055C6D100549317 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B90205326EA003A88E8 /* ProductViewController.swift */; };
+		5A2686C32055C6D100549317 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A26864F205362AC00549317 /* Product.swift */; };
+		5A2686C62055C6D100549317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A596B7D205317CB003A88E8 /* LaunchScreen.storyboard */; };
+		5A2686C72055C6D100549317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A596B7B205317CB003A88E8 /* Assets.xcassets */; };
+		5A2686C82055C6D100549317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A596B78205317CB003A88E8 /* Main.storyboard */; };
 		5A596B75205317CB003A88E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B74205317CB003A88E8 /* AppDelegate.swift */; };
 		5A596B77205317CB003A88E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596B76205317CB003A88E8 /* ViewController.swift */; };
 		5A596B7A205317CB003A88E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A596B78205317CB003A88E8 /* Main.storyboard */; };
@@ -24,7 +62,36 @@
 		5A596BA320535709003A88E8 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A596BA220535709003A88E8 /* ProductTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A2686782055BD5F00549317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A596B69205317CB003A88E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A596B70205317CB003A88E8;
+			remoteInfo = TimBurtons;
+		};
+		5A2686862055BDB800549317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A596B69205317CB003A88E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A596B70205317CB003A88E8;
+			remoteInfo = TimBurtons;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5A26864F205362AC00549317 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5A2686512053673E00549317 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5A2686732055BD5F00549317 /* TimBurtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimBurtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2686752055BD5F00549317 /* TimBurtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimBurtonsTests.swift; sourceTree = "<group>"; };
+		5A2686772055BD5F00549317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2686812055BDB800549317 /* TimBurtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimBurtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2686832055BDB800549317 /* TimBurtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimBurtonsUITests.swift; sourceTree = "<group>"; };
+		5A2686852055BDB800549317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2686B22055C65000549317 /* TimBurtons Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimBurtons Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2686B32055C65000549317 /* TimBurtons Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TimBurtons Dev-Info.plist"; path = "/Users/siddhesh/Documents/SideProjects/TimBurtons/TimBurtons/TimBurtons Dev-Info.plist"; sourceTree = "<absolute>"; };
+		5A2686CC2055C6D100549317 /* TimBurtons QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimBurtons QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2686CD2055C6D200549317 /* TimBurtons QA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TimBurtons QA-Info.plist"; path = "/Users/siddhesh/Documents/SideProjects/TimBurtons/TimBurtons/TimBurtons QA-Info.plist"; sourceTree = "<absolute>"; };
 		5A596B71205317CB003A88E8 /* TimBurtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimBurtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A596B74205317CB003A88E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A596B76205317CB003A88E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +112,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A2686702055BD5F00549317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A26867E2055BDB800549317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2686AA2055C65000549317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2686C42055C6D100549317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A596B6E205317CB003A88E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,11 +150,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A2686742055BD5F00549317 /* TimBurtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2686752055BD5F00549317 /* TimBurtonsTests.swift */,
+				5A2686772055BD5F00549317 /* Info.plist */,
+			);
+			path = TimBurtonsTests;
+			sourceTree = "<group>";
+		};
+		5A2686822055BDB800549317 /* TimBurtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2686832055BDB800549317 /* TimBurtonsUITests.swift */,
+				5A2686852055BDB800549317 /* Info.plist */,
+			);
+			path = TimBurtonsUITests;
+			sourceTree = "<group>";
+		};
+		5A2686CE2055CB5E00549317 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5A596B7B205317CB003A88E8 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		5A596B68205317CB003A88E8 = {
 			isa = PBXGroup;
 			children = (
 				5A596B73205317CB003A88E8 /* TimBurtons */,
-				5A596B8620531BAF003A88E8 /* Home Tab Bar Controller */,
+				5A2686742055BD5F00549317 /* TimBurtonsTests */,
+				5A2686822055BDB800549317 /* TimBurtonsUITests */,
 				5A596B72205317CB003A88E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +190,10 @@
 			isa = PBXGroup;
 			children = (
 				5A596B71205317CB003A88E8 /* TimBurtons.app */,
+				5A2686732055BD5F00549317 /* TimBurtonsTests.xctest */,
+				5A2686812055BDB800549317 /* TimBurtonsUITests.xctest */,
+				5A2686B22055C65000549317 /* TimBurtons Dev.app */,
+				5A2686CC2055C6D100549317 /* TimBurtons QA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,11 +201,13 @@
 		5A596B73205317CB003A88E8 /* TimBurtons */ = {
 			isa = PBXGroup;
 			children = (
-				5A596B8C20532549003A88E8 /* Global */,
 				5A596B8720531BD7003A88E8 /* StoryboardAndXibs */,
-				5A596B74205317CB003A88E8 /* AppDelegate.swift */,
-				5A596B7B205317CB003A88E8 /* Assets.xcassets */,
+				5A596B8C20532549003A88E8 /* Global */,
+				5A596B8620531BAF003A88E8 /* Home Tab Bar Controller */,
 				5A596B80205317CB003A88E8 /* Info.plist */,
+				5A2686B32055C65000549317 /* TimBurtons Dev-Info.plist */,
+				5A2686CD2055C6D200549317 /* TimBurtons QA-Info.plist */,
+				5A2686CE2055CB5E00549317 /* Images */,
 			);
 			path = TimBurtons;
 			sourceTree = "<group>";
@@ -106,6 +234,8 @@
 		5A596B8C20532549003A88E8 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				5A596B74205317CB003A88E8 /* AppDelegate.swift */,
+				5A2686512053673E00549317 /* APIManager.swift */,
 				5A596B8D2053256C003A88E8 /* UIColor+Extension.swift */,
 			);
 			path = Global;
@@ -136,6 +266,7 @@
 			children = (
 				5A596B90205326EA003A88E8 /* ProductViewController.swift */,
 				5A596BA220535709003A88E8 /* ProductTableViewCell.swift */,
+				5A26864F205362AC00549317 /* Product.swift */,
 			);
 			path = ProductTab;
 			sourceTree = "<group>";
@@ -169,6 +300,76 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5A2686722055BD5F00549317 /* TimBurtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A26867A2055BD5F00549317 /* Build configuration list for PBXNativeTarget "TimBurtonsTests" */;
+			buildPhases = (
+				5A26866F2055BD5F00549317 /* Sources */,
+				5A2686702055BD5F00549317 /* Frameworks */,
+				5A2686712055BD5F00549317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2686792055BD5F00549317 /* PBXTargetDependency */,
+			);
+			name = TimBurtonsTests;
+			productName = TimBurtonsTests;
+			productReference = 5A2686732055BD5F00549317 /* TimBurtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A2686802055BDB800549317 /* TimBurtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2686882055BDB800549317 /* Build configuration list for PBXNativeTarget "TimBurtonsUITests" */;
+			buildPhases = (
+				5A26867D2055BDB800549317 /* Sources */,
+				5A26867E2055BDB800549317 /* Frameworks */,
+				5A26867F2055BDB800549317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2686872055BDB800549317 /* PBXTargetDependency */,
+			);
+			name = TimBurtonsUITests;
+			productName = TimBurtonsUITests;
+			productReference = 5A2686812055BDB800549317 /* TimBurtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5A26869A2055C65000549317 /* TimBurtons Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2686AF2055C65000549317 /* Build configuration list for PBXNativeTarget "TimBurtons Dev" */;
+			buildPhases = (
+				5A26869B2055C65000549317 /* Sources */,
+				5A2686AA2055C65000549317 /* Frameworks */,
+				5A2686AB2055C65000549317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimBurtons Dev";
+			productName = TimBurtons;
+			productReference = 5A2686B22055C65000549317 /* TimBurtons Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A2686B42055C6D100549317 /* TimBurtons QA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2686C92055C6D100549317 /* Build configuration list for PBXNativeTarget "TimBurtons QA" */;
+			buildPhases = (
+				5A2686B52055C6D100549317 /* Sources */,
+				5A2686C42055C6D100549317 /* Frameworks */,
+				5A2686C52055C6D100549317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimBurtons QA";
+			productName = TimBurtons;
+			productReference = 5A2686CC2055C6D100549317 /* TimBurtons QA.app */;
+			productType = "com.apple.product-type.application";
+		};
 		5A596B70205317CB003A88E8 /* TimBurtons */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A596B83205317CB003A88E8 /* Build configuration list for PBXNativeTarget "TimBurtons" */;
@@ -196,6 +397,22 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = net.siddhesh;
 				TargetAttributes = {
+					5A2686722055BD5F00549317 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A596B70205317CB003A88E8;
+					};
+					5A2686802055BDB800549317 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A596B70205317CB003A88E8;
+					};
+					5A26869A2055C65000549317 = {
+						ProvisioningStyle = Automatic;
+					};
+					5A2686B42055C6D100549317 = {
+						ProvisioningStyle = Automatic;
+					};
 					5A596B70205317CB003A88E8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -216,11 +433,49 @@
 			projectRoot = "";
 			targets = (
 				5A596B70205317CB003A88E8 /* TimBurtons */,
+				5A2686722055BD5F00549317 /* TimBurtonsTests */,
+				5A2686802055BDB800549317 /* TimBurtonsUITests */,
+				5A26869A2055C65000549317 /* TimBurtons Dev */,
+				5A2686B42055C6D100549317 /* TimBurtons QA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A2686712055BD5F00549317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A26867F2055BDB800549317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2686AB2055C65000549317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2686AC2055C65000549317 /* LaunchScreen.storyboard in Resources */,
+				5A2686AD2055C65000549317 /* Assets.xcassets in Resources */,
+				5A2686AE2055C65000549317 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2686C52055C6D100549317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2686C62055C6D100549317 /* LaunchScreen.storyboard in Resources */,
+				5A2686C72055C6D100549317 /* Assets.xcassets in Resources */,
+				5A2686C82055C6D100549317 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A596B6F205317CB003A88E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +489,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A26866F2055BD5F00549317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2686762055BD5F00549317 /* TimBurtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A26867D2055BDB800549317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2686842055BDB800549317 /* TimBurtonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A26869B2055C65000549317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A26869C2055C65000549317 /* MoreViewController.swift in Sources */,
+				5A26869D2055C65000549317 /* ViewController.swift in Sources */,
+				5A26869E2055C65000549317 /* AppDelegate.swift in Sources */,
+				5A26869F2055C65000549317 /* ChatViewController.swift in Sources */,
+				5A2686A02055C65000549317 /* TimNavigationController.swift in Sources */,
+				5A2686A12055C65000549317 /* ProductTableViewCell.swift in Sources */,
+				5A2686A22055C65000549317 /* APIManager.swift in Sources */,
+				5A2686A32055C65000549317 /* RewardsViewController.swift in Sources */,
+				5A2686A42055C65000549317 /* MainViewController.swift in Sources */,
+				5A2686A52055C65000549317 /* UIColor+Extension.swift in Sources */,
+				5A2686A62055C65000549317 /* OffersViewController.swift in Sources */,
+				5A2686A72055C65000549317 /* GiftCardViewController.swift in Sources */,
+				5A2686A82055C65000549317 /* ProductViewController.swift in Sources */,
+				5A2686A92055C65000549317 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2686B52055C6D100549317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2686B62055C6D100549317 /* MoreViewController.swift in Sources */,
+				5A2686B72055C6D100549317 /* ViewController.swift in Sources */,
+				5A2686B82055C6D100549317 /* AppDelegate.swift in Sources */,
+				5A2686B92055C6D100549317 /* ChatViewController.swift in Sources */,
+				5A2686BA2055C6D100549317 /* TimNavigationController.swift in Sources */,
+				5A2686BB2055C6D100549317 /* ProductTableViewCell.swift in Sources */,
+				5A2686BC2055C6D100549317 /* APIManager.swift in Sources */,
+				5A2686BD2055C6D100549317 /* RewardsViewController.swift in Sources */,
+				5A2686BE2055C6D100549317 /* MainViewController.swift in Sources */,
+				5A2686BF2055C6D100549317 /* UIColor+Extension.swift in Sources */,
+				5A2686C02055C6D100549317 /* OffersViewController.swift in Sources */,
+				5A2686C12055C6D100549317 /* GiftCardViewController.swift in Sources */,
+				5A2686C22055C6D100549317 /* ProductViewController.swift in Sources */,
+				5A2686C32055C6D100549317 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A596B6D205317CB003A88E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,16 +557,31 @@
 				5A596B9B205328A8003A88E8 /* ChatViewController.swift in Sources */,
 				5A596B8B20532416003A88E8 /* TimNavigationController.swift in Sources */,
 				5A596BA320535709003A88E8 /* ProductTableViewCell.swift in Sources */,
+				5A2686522053673E00549317 /* APIManager.swift in Sources */,
 				5A596B9F20532BD4003A88E8 /* RewardsViewController.swift in Sources */,
 				5A596B8920531C1E003A88E8 /* MainViewController.swift in Sources */,
 				5A596B8E2053256C003A88E8 /* UIColor+Extension.swift in Sources */,
 				5A596B992053289D003A88E8 /* OffersViewController.swift in Sources */,
 				5A596BA120532C47003A88E8 /* GiftCardViewController.swift in Sources */,
 				5A596B91205326EA003A88E8 /* ProductViewController.swift in Sources */,
+				5A268650205362AC00549317 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2686792055BD5F00549317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A596B70205317CB003A88E8 /* TimBurtons */;
+			targetProxy = 5A2686782055BD5F00549317 /* PBXContainerItemProxy */;
+		};
+		5A2686872055BDB800549317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A596B70205317CB003A88E8 /* TimBurtons */;
+			targetProxy = 5A2686862055BDB800549317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5A596B78205317CB003A88E8 /* Main.storyboard */ = {
@@ -275,6 +603,132 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5A26867B2055BD5F00549317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUGS3K7R6;
+				INFOPLIST_FILE = TimBurtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimBurtons.app/TimBurtons";
+			};
+			name = Debug;
+		};
+		5A26867C2055BD5F00549317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUGS3K7R6;
+				INFOPLIST_FILE = TimBurtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimBurtons.app/TimBurtons";
+			};
+			name = Release;
+		};
+		5A2686892055BDB800549317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUGS3K7R6;
+				INFOPLIST_FILE = TimBurtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimBurtons;
+			};
+			name = Debug;
+		};
+		5A26868A2055BDB800549317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUGS3K7R6;
+				INFOPLIST_FILE = TimBurtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimBurtons;
+			};
+			name = Release;
+		};
+		5A2686B02055C65000549317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STM9TH8M25;
+				INFOPLIST_FILE = "$(SRCROOT)/TimBurtons/TimBurtons Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A2686B12055C65000549317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STM9TH8M25;
+				INFOPLIST_FILE = "$(SRCROOT)/TimBurtons/TimBurtons Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A2686CA2055C6D100549317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STM9TH8M25;
+				INFOPLIST_FILE = "$(SRCROOT)/TimBurtons/TimBurtons QA-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DQA";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A2686CB2055C6D100549317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STM9TH8M25;
+				INFOPLIST_FILE = "$(SRCROOT)/TimBurtons/TimBurtons QA-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DQA";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimBurtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5A596B81205317CB003A88E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +869,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A26867A2055BD5F00549317 /* Build configuration list for PBXNativeTarget "TimBurtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A26867B2055BD5F00549317 /* Debug */,
+				5A26867C2055BD5F00549317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2686882055BDB800549317 /* Build configuration list for PBXNativeTarget "TimBurtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2686892055BDB800549317 /* Debug */,
+				5A26868A2055BDB800549317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2686AF2055C65000549317 /* Build configuration list for PBXNativeTarget "TimBurtons Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2686B02055C65000549317 /* Debug */,
+				5A2686B12055C65000549317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2686C92055C6D100549317 /* Build configuration list for PBXNativeTarget "TimBurtons QA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2686CA2055C6D100549317 /* Debug */,
+				5A2686CB2055C6D100549317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5A596B6C205317CB003A88E8 /* Build configuration list for PBXProject "TimBurtons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

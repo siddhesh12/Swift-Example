@@ -4,10 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TimBurtons.xcscheme</key>
+		<key>TimBurtons Dev.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>TimBurtons QA.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TimBurtons.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5A2686722055BD5F00549317</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A2686802055BDB800549317</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A26869A2055C65000549317</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A2686B42055C6D100549317</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A596B70205317CB003A88E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
